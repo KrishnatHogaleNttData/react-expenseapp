@@ -42,11 +42,14 @@ const App = () => {
     // }).then(response=>{
     //     fetchdata();
     // })
+    //
+    //
   };
 
   return (
     <>
       <NewExpense onAddExpense={addExpenseHandler} />
+      
       <Expenses item={expenses} />
     </>
   );
